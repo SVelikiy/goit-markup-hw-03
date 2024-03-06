@@ -191,18 +191,13 @@ a {
   flex-basis: calc((100% - 72px) / 4);
 }
 
-.item-title {
+.benefits-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  text-align: center;
-}
-
-.item-text{
-  text-align: center;;
 }
 
 .team {
@@ -225,16 +220,27 @@ a {
   flex-basis: calc((100% - 72px) / 4);
 }
 
-.team-item-title {
-  display: flex;
-  flex-direction: column;
+.team-item-container {
   padding: 32px 0;
-  align-items: center;
 }
 
 .team-item {
   background-color: #fff;
   border-radius: 0 0 4px 4px;
+}
+
+.team-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.team-item-text{
+  text-align: center;
 }
 
 
