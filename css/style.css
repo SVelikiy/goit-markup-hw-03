@@ -118,7 +118,7 @@ a {
 }
 
 .section {
-  padding: 120px 0;
+  padding: 188px 0;
 }
 
 .box {
@@ -130,8 +130,6 @@ a {
   flex-direction: column;
   gap: 50px;
   align-items: center;
-  padding-top: 68px;
-  padding-bottom: 66px;
 }
 
 .box-title {
@@ -154,7 +152,7 @@ a {
   color: #fff;
   cursor: pointer;
   border-radius: 4px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   border: none;
 }
@@ -211,7 +209,6 @@ a {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  text-align: center;
   margin-bottom: 72px;
 }
 
@@ -224,7 +221,7 @@ a {
 .team-item-title {
   display: flex;
   flex-direction: column;
-  padding: 32px 16px;
+  padding: 32px 0;
   align-items: center;
   gap: 8px;
 }
@@ -232,6 +229,10 @@ a {
 .team-item {
   background-color: #fff;
   border-radius: 0 0 4px 4px;
+}
+
+.item-text {
+  text-align: center  ;
 }
 
 .portfolio-list {
@@ -264,7 +265,7 @@ a {
 
 .logo-link {
   display: inline-block;
-  margin-bottom: 17, 5px;
+  margin-bottom: 16px;
 }
 
 .footer-logo {
