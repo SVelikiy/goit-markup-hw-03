@@ -118,11 +118,12 @@ a {
 }
 
 .section {
-  padding: 188px 0;
+  padding: 120px 0;
 }
 
 .box {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .box-container {
@@ -206,10 +207,10 @@ a {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
   margin-bottom: 72px;
+  text-align: center;
 }
 
 .team-list {
@@ -265,7 +266,11 @@ a {
 
 .logo-link {
   display: inline-block;
-  margin-bottom: 16px;
+  
+}
+
+.footer-logo-link {
+margin-bottom: 16px;
 }
 
 .footer-logo {
