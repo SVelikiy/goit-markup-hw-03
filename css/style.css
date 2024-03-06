@@ -232,6 +232,10 @@ a {
   border-radius: 0 0 4px 4px;
 }
 
+.item-title {
+  text-align: center;
+}
+
 .item-text {
   text-align: center  ;
 }
@@ -264,13 +268,16 @@ a {
   padding: 100px 0;
 }
 
-.logo-link {
+.logo-link-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
   display: inline-block;
-  
-}
-
-.footer-logo-link {
-margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .footer-logo {
